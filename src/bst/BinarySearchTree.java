@@ -171,7 +171,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	public void postOrder() {
 
 		postOrderRecurse(root);
-		System.out.println(PostOrder test commit);
+		//System.out.println(PostOrder test commit);
 	}
 	
 	public void postOrderRecurse(BSTNode<T> node) {
